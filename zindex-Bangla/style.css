@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+#main {
+  background: #ddd;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+#main div {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.red {
+  background: red;
+  left: 0;
+  z-index: 1;
+}
+
+.green {
+  background: green;
+  right: 0;
+  z-index: 2;
+}
+
+.blue {
+  background: blue;
+  bottom: 0;
+  z-index: 3;
+}
